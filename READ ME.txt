@@ -1,0 +1,9 @@
+Guia de todos mis codigos de mi Proyecto integrador
+
+Canvas Manager.cs : Script que maneja como los diferentes paneles de la interfaz grafica se activin y se desactivan mediante el boton que aplaste el usuario.
+
+Inventory Manager.cs: Controla las listas e objetos, controla que cuando se aplaste algunos botones se anada una lista de objetos o se pueda editar los objetos dentr de estas listas.Maneja los datos que se tendran y se mostraran dentro de la aplicacion.
+
+Item.cs: Simple clase que define que es un item, tiene un nombre y una descripcion por el momento.
+
+Item List.cs: Codigo que define que es un item list. Solo tiene el nombre de la lista y lo que contiene son items .
