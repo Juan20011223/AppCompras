@@ -3,10 +3,15 @@ public class Item
 {
     public string itemName;
     public string itemDescription;
+    public float price;
+    public string imagePath; // Path to the image
 
-    public Item(string name, string description)
+    // Constructor to initialize the item
+    public Item(string itemName, string itemDescription, float price, string imagePath)
     {
-        itemName = name;
-        itemDescription = description;
+        this.itemName = itemName;
+        this.itemDescription = itemDescription;
+        this.price = price;
+        this.imagePath = imagePath;
     }
 }

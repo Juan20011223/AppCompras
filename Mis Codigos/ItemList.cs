@@ -1,14 +1,16 @@
 using System.Collections.Generic;
+using System;
 
-[System.Serializable]
+[Serializable]
 public class ItemList
 {
     public string listName;
     public List<Item> items;
 
-    public ItemList(string name)
+    // Constructor to initialize the item list
+    public ItemList(string listName)
     {
-        listName = name;
-        items = new List<Item>();
+        this.listName = listName;
+        this.items = new List<Item>();
     }
 }
