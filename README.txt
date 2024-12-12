@@ -1,4 +1,6 @@
-Este es el READ ME de mi Proyecto inegrador donde explicare cual es la function de cada codigo dentro e mi aplicacion.
+Este es el READ ME del proyecto integrador titulado: Aplicación Android con Realidad Aumentada para la Identificación Eficiente e Interactiva de Productos del Hogar
+
+A continuacion se da una breve explicacion acerca de los codigos implementados.
 
 Item.cs-------------------------------------------------------------
 
