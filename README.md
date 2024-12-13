@@ -11,10 +11,10 @@ La estructura del proyecto en carpetas es la siguiente:
 |
 |--- 📁 <a href="https://github.com/Juan20011223/ProyectoIntegrador/tree/main/Proyecto%20Integrador/Modelo">Modelo</a>
 </pre>
-
+https://github.com/Juan20011223/ProyectoIntegrador/blob/main/README.md
 
 📁 docs  
-📁 assets
+📁 assetss
 
 
 
