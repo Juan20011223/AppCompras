@@ -124,7 +124,19 @@ Sigue estos pasos para configurar el entorno de desarrollo necesario para el pro
 
 ## 4. Instalar Proyecto
 - Instala el paquete de unity [Paquete Unity](https://github.com/Juan20011223/ProyectoIntegrador/tree/main/Proyecto%20Integrador).
-- Una vez isntalado has click derecho en importar paquete y descarga todas las dependencias para instalar el proyecto
+- Una vez instalado has click derecho en importar paquete y descarga todas las dependencias para instalar el proyecto
+
+# Uso 
+
+Una vez instalado todo lo requerido:
+
+- Preciona play en el editor de unity y prueba la aplicacion
+- Si deseas hacer un build ingresa a **Build Settings > Build**
+
+## En caso de que persista un error o para mas informacion:
+
+##Correo : juanromero505@gmail.com
+  
 
 
 
