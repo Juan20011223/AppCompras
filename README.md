@@ -78,6 +78,24 @@ CanvasManager.cs: Controla los elementos del lienzo de la interfaz de usuario.
 ARButtons.cs: Gestiona la lógica detrás de los botones utilizados en la funcionalidad de realidad aumentada.  
 
 
+#   Requisitos del Proyecto  
+
+1. **Entorno de Desarrollo:**
+   - Unity 2019.4.0 o superior
+   - Visual Studio 2019 o superior
+
+2. **Lenguaje:**
+   - C#
+   - .NET Framework
+
+3. **Vuforia Engine:**
+   - Configuracion de Vuforia Engine dentro de Unity
+   - <a href="https://developer.vuforia.com/downloads/sdk">Vuforia Engine Unity</a>
+
+
+
+
+
 
 
 
