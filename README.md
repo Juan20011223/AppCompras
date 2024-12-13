@@ -32,7 +32,7 @@ La estructura del proyecto en carpetas es la siguiente:
 
 
 # Descripcion del Proyecto 
-
+<pre>
 📁 Modelo
 El modelo se encarga de gestionar la lógica de negocio y los datos de la aplicación. Aquí se definen las clases que representan los objetos de datos, junto con los métodos para manejar estos datos. También puede incluir la lógica para guardar y cargar datos desde archivos o bases de datos.
 
@@ -77,6 +77,8 @@ ImageTargetManager.cs: Gestiona las imágenes objetivo para la funcionalidad de 
 Item.cs y ItemList.cs: Definen los datos y estructuras básicas del inventario (por ejemplo, los objetos y sus listas).
 📁 Vista
 La vista maneja todo lo relacionado con la presentación de la información al usuario. Aquí se define cómo se ven y se comportan las interfaces de usuario. No contiene lógica de negocio, solo lógica de interfaz.
+
+</pre>
 
 Responsabilidades:
 
