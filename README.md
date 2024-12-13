@@ -7,6 +7,8 @@ El presente trabajo describe la elaboración de una aplicación móvil realizada
 La estructura del proyecto en carpetas es la siguiente:
 
 📁 Proyecto Integrador
+|
+|--- 📁 [Modelo](https://github.com/Juan20011223/ProyectoIntegrador/tree/main/Proyecto%20Integrador/Modelo)  
 
 
 📁 docs  
