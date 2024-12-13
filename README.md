@@ -10,6 +10,8 @@ La estructura del proyecto en carpetas es la siguiente:
 📁 Proyecto Integrador
 |
 |--- 📁 <a href="https://github.com/Juan20011223/ProyectoIntegrador/tree/main/Proyecto%20Integrador/Modelo">Modelo</a>
+|    |--- InventoryManager.cs
+|    |--- SavingManager.cs  
 |
 |--- 📁 <a href="https://github.com/Juan20011223/ProyectoIntegrador/tree/main/Proyecto%20Integrador/Vista">Vista</a>
 |
