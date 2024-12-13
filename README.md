@@ -122,9 +122,9 @@ Sigue estos pasos para configurar el entorno de desarrollo necesario para el pro
      - Ve a **GameObject > Vuforia Engine > AR Camera**.
    - Asegúrate de que los componentes necesarios, como el **Vuforia Behaviour**, se hayan añadido correctamente.
 
-## 4. Instalar Dependencias Adicionales
-- Asegúrate de tener una conexión a Internet para descargar automáticamente las dependencias necesarias durante la configuración del proyecto en Unity.
-- Si usas Git, clona este repositorio para acceder a todos los scripts y recursos:
+## 4. Instalar Proyecto
+- Instala el paquete de unity [Paquete Unity](https://github.com/Juan20011223/ProyectoIntegrador/tree/main/Proyecto%20Integrador).
+- Una vez isntalado has click derecho en importar paquete y descarga todas las dependencias para instalar el proyecto
 
 
 
