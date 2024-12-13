@@ -1,6 +1,6 @@
 # Introduccion
 
-El pr
+El presente trabajo describe la elaboracion de una applicacion movil realizada en unity para dispositivos android. Dicha aplicacion permite al usuario crear listas de productos de la casa y escanearlos con realidad aumentada para detectar cuales productos hacen falta. Esta permite compartir las listas con los productos y sus precios totales para que asi los usuarios puedan vizualisarlas desde sus difrereentes dispositivos.
 
 
 
