@@ -1,3 +1,11 @@
+# Introduccion
+
+El pr
+
+
+
+
+
 Este es el READ ME del proyecto integrador titulado: Aplicación Android con Realidad Aumentada para la Identificación Eficiente e Interactiva de Productos del Hogar
 
 A continuacion se da una breve explicacion acerca de los codigos implementados.
