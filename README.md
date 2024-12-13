@@ -102,7 +102,6 @@ Sigue estos pasos para configurar el entorno de desarrollo necesario para el pro
    - Haz clic en **Add** y selecciona la versión **2019.4.0** o superior.
    - Asegúrate de incluir los módulos necesarios como:
      - **Android Build Support** (incluye herramientas como SDK y NDK).
-     - **Vuforia Augmented Reality Support** (selecciona esta opción al instalar).
 
 ## 2. Instalar Visual Studio
 1. Descarga e instala Visual Studio 2019 o superior desde: [Visual Studio](https://visualstudio.microsoft.com/).
