@@ -44,7 +44,8 @@ Ejemplos en el proyecto:
 
 InventoryManager.cs: Administra el inventario de los objetos de la aplicación.
 SavingManager.cs: Se encarga de guardar y cargar datos de la aplicación.
-ImageTargetManager.cs: Gestiona las imágenes objetivo para la funcionalidad de realidad aumentada.
+ImageTargetManager.cs: Gestiona las imágenes objetivo para la funcionalidad de realidad aumentada.  
+
 Item.cs y ItemList.cs: Definen los datos y estructuras básicas del inventario (por ejemplo, los objetos y sus listas).
 
 📁 Vista
