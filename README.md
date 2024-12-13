@@ -17,6 +17,7 @@ La estructura del proyecto en carpetas es la siguiente:
 |    |--- ItemList.cs
 |
 |--- 📁 <a href="https://github.com/Juan20011223/ProyectoIntegrador/tree/main/Proyecto%20Integrador/Vista">Vista</a>
+|    |--- UI Components
 |
 |--- 📁 <a href="https://github.com/Juan20011223/ProyectoIntegrador/tree/main/Proyecto%20Integrador/Controlador">Controlador</a>
 |    |--- CameraManager.cs
