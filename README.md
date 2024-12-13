@@ -12,10 +12,18 @@ La estructura del proyecto en carpetas es la siguiente:
 |--- 📁 <a href="https://github.com/Juan20011223/ProyectoIntegrador/tree/main/Proyecto%20Integrador/Modelo">Modelo</a>
 |    |--- InventoryManager.cs
 |    |--- SavingManager.cs  
+|    |--- ImageTargetManager.cs
+|    |--- Item.cs
+|    |--- ItemList.cs
 |
 |--- 📁 <a href="https://github.com/Juan20011223/ProyectoIntegrador/tree/main/Proyecto%20Integrador/Vista">Vista</a>
+|    |--- CanvasManager.cs
+|    |--- ARButtons.cs
 |
 |--- 📁 <a href="https://github.com/Juan20011223/ProyectoIntegrador/tree/main/Proyecto%20Integrador/Controlador">Controlador</a>
+|    |--- CameraManager.cs
+|    |--- EventHandlers
+|    |--- EmailSender.cs
 </pre>
 https://github.com/Juan20011223/ProyectoIntegrador/blob/main/README.md
 
