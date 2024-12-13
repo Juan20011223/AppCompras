@@ -90,7 +90,46 @@ ARButtons.cs: Gestiona la lógica detrás de los botones utilizados en la funcio
 
 3. **Vuforia Engine:**
    - Configuracion de Vuforia Engine dentro de Unity
-   - <a href="https://developer.vuforia.com/downloads/sdk">Vuforia Engine Unity</a>
+
+# Instalación
+
+Sigue estos pasos para configurar el entorno de desarrollo necesario para el proyecto:
+
+## 1. Instalar Unity
+1. Descarga e instala Unity Hub desde su sitio oficial: [Unity Hub](https://unity.com/download).
+2. Dentro de Unity Hub:
+   - Ve a la sección **Installs**.
+   - Haz clic en **Add** y selecciona la versión **2019.4.0** o superior.
+   - Asegúrate de incluir los módulos necesarios como:
+     - **Android Build Support** (incluye herramientas como SDK y NDK).
+     - **Vuforia Augmented Reality Support** (selecciona esta opción al instalar).
+
+## 2. Instalar Visual Studio
+1. Descarga e instala Visual Studio 2019 o superior desde: [Visual Studio](https://visualstudio.microsoft.com/).
+2. Durante la instalación:
+   - Selecciona la carga de trabajo **Desarrollo de juegos con Unity**.
+   - Incluye el soporte para **.NET Framework**.
+
+## 3. Configuración de Unity y Vuforia
+1. Activa Vuforia en tu proyecto siguiendo estos pasos:
+   - Descarga el paquete de Vuforia Engine desde su sitio oficial: [Vuforia Engine Unity](https://developer.vuforia.com/downloads/sdk).
+   - Antes de descargar, deberás crear una cuenta en el portal de Vuforia si aún no tienes una. Esto es necesario para acceder a las herramientas de desarrollo.
+   - Importa el paquete descargado en Unity:
+     - Ve a **Assets > Import Package > Custom Package**, selecciona el archivo del paquete y sigue los pasos para importarlo.
+
+2. Configura la cámara para trabajar con Vuforia:
+   - Elimina la cámara principal del proyecto.
+   - Agrega una cámara de Vuforia:
+     - Ve a **GameObject > Vuforia Engine > AR Camera**.
+   - Asegúrate de que los componentes necesarios, como el **Vuforia Behaviour**, se hayan añadido correctamente.
+
+## 4. Instalar Dependencias Adicionales
+- Asegúrate de tener una conexión a Internet para descargar automáticamente las dependencias necesarias durante la configuración del proyecto en Unity.
+- Si usas Git, clona este repositorio para acceder a todos los scripts y recursos:
+
+
+
+   
 
 
 
