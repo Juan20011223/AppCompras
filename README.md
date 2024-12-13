@@ -32,7 +32,7 @@ La estructura del proyecto en carpetas es la siguiente:
 
 
 # Descripcion del Proyecto 
-<pre>
+
 📁 Modelo
 El modelo se encarga de gestionar la lógica de negocio y los datos de la aplicación. Aquí se definen las clases que representan los objetos de datos, junto con los métodos para manejar estos datos. También puede incluir la lógica para guardar y cargar datos desde archivos o bases de datos.
 
@@ -62,7 +62,7 @@ UI Components: Aquí estarían los elementos de la interfaz de usuario, como bot
 Descripción del Modelo, Vista y Controlador (MVC)
 El patrón Modelo-Vista-Controlador (MVC) es una arquitectura de software que organiza el código en tres componentes principales, cada uno con responsabilidades específicas. Usando la estructura proporcionada, aquí está la descripción de cada componente:
 
-📁 Modelo
+📁 Modelo:
 El modelo se encarga de gestionar la lógica de negocio y los datos de la aplicación. Aquí se definen las clases que representan los objetos de datos, junto con los métodos para manejar estos datos. También puede incluir la lógica para guardar y cargar datos desde archivos o bases de datos.
 
 Responsabilidades:
@@ -75,10 +75,9 @@ InventoryManager.cs: Administra el inventario de los objetos de la aplicación.
 SavingManager.cs: Se encarga de guardar y cargar datos de la aplicación.
 ImageTargetManager.cs: Gestiona las imágenes objetivo para la funcionalidad de realidad aumentada.
 Item.cs y ItemList.cs: Definen los datos y estructuras básicas del inventario (por ejemplo, los objetos y sus listas).
-📁 Vista
-La vista maneja todo lo relacionado con la presentación de la información al usuario. Aquí se define cómo se ven y se comportan las interfaces de usuario. No contiene lógica de negocio, solo lógica de interfaz.
 
-</pre>
+📁 Vista:
+La vista maneja todo lo relacionado con la presentación de la información al usuario. Aquí se define cómo se ven y se comportan las interfaces de usuario. No contiene lógica de negocio, solo lógica de interfaz.
 
 Responsabilidades:
 
@@ -88,7 +87,7 @@ Ejemplos en el proyecto:
 
 UI Components: Aquí estarían los elementos de la interfaz de usuario, como botones, menús, y pantallas.
 
-📁 Controlador
+📁 Controlador:
 El controlador actúa como un intermediario entre el modelo y la vista. Recibe las entradas del usuario desde la vista, procesa esas entradas (generalmente usando datos del modelo), y actualiza la vista según sea necesario.
 
 Responsabilidades:
