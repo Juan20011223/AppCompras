@@ -33,7 +33,7 @@ La estructura del proyecto en carpetas es la siguiente:
 
 # Descripcion del Proyecto 
 
-📁 Modelo
+📁 Modelo:  
 El modelo se encarga de gestionar la lógica de negocio y los datos de la aplicación. Aquí se definen las clases que representan los objetos de datos, junto con los métodos para manejar estos datos. También puede incluir la lógica para guardar y cargar datos desde archivos o bases de datos.
 
 Responsabilidades:
@@ -50,7 +50,7 @@ ImageTargetManager.cs: Gestiona las imágenes objetivo para la funcionalidad de 
 
 Item.cs y ItemList.cs: Definen los datos y estructuras básicas del inventario (por ejemplo, los objetos y sus listas).
 
-📁 Vista
+📁 Vista:  
 La vista maneja todo lo relacionado con la presentación de la información al usuario. Aquí se define cómo se ven y se comportan las interfaces de usuario. No contiene lógica de negocio, solo lógica de interfaz.
 
 Responsabilidades:
@@ -59,11 +59,7 @@ Mostrar datos que provienen del modelo.
 Proveer una interfaz interactiva que el usuario puede manipular.
 Ejemplos en el proyecto:
 
-UI Components: Aquí estarían los elementos de la interfaz de usuario, como botones, menús, y pantallas.
-
-
-Descripción del Modelo, Vista y Controlador (MVC)
-El patrón Modelo-Vista-Controlador (MVC) es una arquitectura de software que organiza el código en tres componentes principales, cada uno con responsabilidades específicas. Usando la estructura proporcionada, aquí está la descripción de cada componente:
+UI Components: Aquí estarían los elementos de la interfaz de usuario, como botones, menús, y pantallas.  
 
 📁 Modelo:
 El modelo se encarga de gestionar la lógica de negocio y los datos de la aplicación. Aquí se definen las clases que representan los objetos de datos, junto con los métodos para manejar estos datos. También puede incluir la lógica para guardar y cargar datos desde archivos o bases de datos.
