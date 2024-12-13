@@ -132,7 +132,7 @@ Una vez instalado todo lo requerido:
 
 - Preciona play en el editor de unity y prueba la aplicacion
 - Si deseas hacer un build ingresa a:
-  -**Build Settings > Build**
+  - **Build Settings > Build**
 
 ## En caso de que persista un error o para mas informacion:
 
