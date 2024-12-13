@@ -70,10 +70,10 @@ Definir estructuras de datos y objetos (como Item o ItemList).
 Administrar el estado interno y la lógica de persistencia (guardar/cargar información).
 Ejemplos en el proyecto:
 
-InventoryManager.cs: Administra el inventario de los objetos de la aplicación.
-SavingManager.cs: Se encarga de guardar y cargar datos de la aplicación.
-ImageTargetManager.cs: Gestiona las imágenes objetivo para la funcionalidad de realidad aumentada.
-Item.cs y ItemList.cs: Definen los datos y estructuras básicas del inventario (por ejemplo, los objetos y sus listas).
+InventoryManager.cs: Administra el inventario de los objetos de la aplicación.  
+SavingManager.cs: Se encarga de guardar y cargar datos de la aplicación.  
+ImageTargetManager.cs: Gestiona las imágenes objetivo para la funcionalidad de realidad aumentada.  
+Item.cs y ItemList.cs: Definen los datos y estructuras básicas del inventario (por ejemplo, los objetos y sus listas).  
 
 📁 Vista:
 La vista maneja todo lo relacionado con la presentación de la información al usuario. Aquí se define cómo se ven y se comportan las interfaces de usuario. No contiene lógica de negocio, solo lógica de interfaz.
@@ -86,21 +86,21 @@ Ejemplos en el proyecto:
 
 UI Components: Aquí estarían los elementos de la interfaz de usuario, como botones, menús, y pantallas.
 
-📁 Controlador:
+📁 Controlador:  
 El controlador actúa como un intermediario entre el modelo y la vista. Recibe las entradas del usuario desde la vista, procesa esas entradas (generalmente usando datos del modelo), y actualiza la vista según sea necesario.
 
 Responsabilidades:
 
-Manejar la lógica de aplicación.
-Responder a los eventos del usuario y actualizar el modelo y/o la vista.
-Coordinar las interacciones entre el modelo y la vista.
-Ejemplos en el proyecto:
+Manejar la lógica de aplicación.  
+Responder a los eventos del usuario y actualizar el modelo y/o la vista.  
+Coordinar las interacciones entre el modelo y la vista.  
+Ejemplos en el proyecto:  
 
-CameraManager.cs: Gestiona la cámara, posiblemente para la funcionalidad de AR.
-EventHandlers: Maneja eventos específicos en la aplicación.
-EmailSender.cs: Envía correos electrónicos cuando es necesario.
-CanvasManager.cs: Controla los elementos del lienzo de la interfaz de usuario.
-ARButtons.cs: Gestiona la lógica detrás de los botones utilizados en la funcionalidad de realidad aumentada.
+CameraManager.cs: Gestiona la cámara, posiblemente para la funcionalidad de AR.  
+EventHandlers: Maneja eventos específicos en la aplicación.  
+EmailSender.cs: Envía correos electrónicos cuando es necesario.  
+CanvasManager.cs: Controla los elementos del lienzo de la interfaz de usuario.  
+ARButtons.cs: Gestiona la lógica detrás de los botones utilizados en la funcionalidad de realidad aumentada.  
 
 
 
