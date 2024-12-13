@@ -8,6 +8,7 @@ La estructura del proyecto en carpetas es la siguiente:
 
 <pre>
 📁 Proyecto Integrador
+|----------------------
 |
 |--- 📁 <a href="https://github.com/Juan20011223/ProyectoIntegrador/tree/main/Proyecto%20Integrador/Modelo">Modelo</a>
 |    |--- InventoryManager.cs
@@ -25,6 +26,8 @@ La estructura del proyecto en carpetas es la siguiente:
 |    |--- EmailSender.cs
 |    |--- CanvasManager.cs
 |    |--- ARButtons.cs
+|
+|----------------------
 </pre>
 https://github.com/Juan20011223/ProyectoIntegrador/blob/main/README.md
 
