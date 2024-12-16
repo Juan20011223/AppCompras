@@ -1,6 +1,6 @@
 # Introducción
 
-El presente trabajo describe la elaboración de una aplicación móvil realizada en Unity para dispositivos Android. Dicha aplicación permite al usuario crear listas de productos del hogar y escanearlos con realidad aumentada para detectar cuáles productos hacen falta. Además, permite compartir las listas con los productos y sus precios totales, de manera que los usuarios puedan visualizarlas desde sus diferentes dispositivos.Dentro de este repositorio se pueden encontrar los codigos utilizados
+Este es el README del proyecto integrador titulado: Aplicación Android con Realidad Aumentada para la Identificación Eficiente e Interactiva de Productos del Hogar. Específicamente, este trabajo describe la elaboración de una aplicación móvil realizada en Unity para dispositivos Android. Dicha aplicación permite al usuario crear listas de productos del hogar y escanearlos con realidad aumentada para detectar cuáles productos hacen falta. Además, permite compartir las listas con los productos y sus precios totales, de manera que los usuarios puedan visualizarlas desde sus diferentes dispositivos. Dentro de este repositorio se pueden encontrar los códigos utilizados
 
 # Estructura del Proyecto
 
@@ -150,9 +150,6 @@ Correo : juanromero505@gmail.com
 
 
 
-Este es el READ ME del proyecto integrador titulado: Aplicación Android con Realidad Aumentada para la Identificación Eficiente e Interactiva de Productos del Hogar
-
-A continuacion se da una breve explicacion acerca de los codigos implementados.
 
 Item.cs-------------------------------------------------------------
 
