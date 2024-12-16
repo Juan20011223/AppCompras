@@ -1,0 +1,197 @@
+Dentro de este texto se describirá el propósito de cada script que forma parte del controlador de la aplicación.
+
+CanvasManager.cs----------------------------------------------------
+
+Canvas Manager es un script que me permite controlar que paneles del Canvas se pueden ver y cuales no Tambien controlando avisos que salen cuando el ususario ingresa mal un dato o cuando no ingresa datos en los campos necesarios.
+
+Funciones:
+
+Start():
+
+Inicializa la variable puedeSeguir con el valor true cuando el objeto al que está asociado este script se activa al inicio del juego.
+
+SetPuedeSeguir(bool booleano):
+
+Permite modificar el valor de la variable puedeSeguir desde otra parte del código.
+Usando este método, se puede habilitar o deshabilitar dinámicamente el control para seguir activando o desactivando paneles.
+
+ActivatePanel(GameObject panelToActivate):
+
+Activa un panel específico (GameObject) pasado como parámetro si:
+El panel no es null.
+La variable puedeSeguir es true.
+Esto asegura que solo se puedan activar paneles cuando puedeSeguir lo permita.
+
+DeactivatePanel(GameObject panelToDeactivate):
+
+Desactiva un panel específico (GameObject) pasado como parámetro si:
+El panel no es null.
+La variable puedeSeguir es true.
+Después de desactivar el panel, establece puedeSeguir de nuevo a true. Esto implica que se podrá activar o desactivar otros paneles nuevamente.
+
+DeactivateAviso(GameObject panelToDeactivate):
+
+Similar a DeactivatePanel, desactiva el panel pasado como parámetro, pero sin depender del valor de puedeSeguir.
+Esto permite desactivar el panel directamente, sin restricciones.
+
+
+CameraManager.cs----------------------------------------------------
+
+Variables 
+
+GameObject photoPanel:
+Panel de la UI que contiene la interfaz relacionada con la captura de fotos.
+
+Texture2D capturedPhoto:
+Almacena la foto capturada en formato de textura.
+
+RawImage capturedPhotoImage:
+Muestra la foto capturada en la interfaz de usuario.
+
+Botones (takePhotoButton, backButton):
+
+takePhotoButton: Botón para capturar una foto.
+
+backButton: Botón para volver a la pantalla anterior.
+
+InputField itemNameInputField:
+Campo de entrada donde el usuario puede escribir un nombre para la foto.
+
+string capturedPhotoPath:
+Ruta donde se guardará la foto capturada en el sistema de archivos.
+
+Camera arCamera:
+Cámara de AR utilizada para capturar la vista.
+
+Funciones:
+
+Start()
+Esconde inicialmente el panel de la foto.
+Asigna los eventos de clic a los botones:
+takePhotoButton: Llama a CapturePhoto pasando el texto del campo de entrada como nombre de la foto.
+backButton: Llama a BackToPreviousScreen para volver atrás.
+
+
+StartCamera() y StopCamera()
+StartCamera:
+Activa la cámara AR y el panel de la foto, iniciando el modo de captura.
+StopCamera:
+Esconde el panel de la foto (la cámara AR permanece activa aunque está comentada en este código).
+
+
+CapturePhoto(string itemName)
+Inicia la captura de una foto llamando a CapturePhotoCoroutine, pasando el nombre del item ingresado como parámetro.
+
+
+CapturePhotoCoroutine (Corutina)
+Captura una foto de la vista actual de la cámara AR utilizando un RenderTexture.
+Pasos:
+Esperar a que termine el frame actual para asegurarse de que la vista está completamente renderizada.
+Crear un RenderTexture para almacenar temporalmente lo que ve la cámara AR.
+Aplicar el RenderTexture a la cámara y capturar la vista.
+Convertir la imagen capturada en una textura (Texture2D) y copiar los píxeles desde el RenderTexture.
+Mostrar la foto capturada en el elemento capturedPhotoImage.
+Guardar la foto llamando a SavePhoto.
+Limpiar el RenderTexture para que no interfiera con el renderizado posterior de la cámara.
+
+
+SavePhoto(Texture2D photo, string itemName)
+Convierte la textura capturada en formato PNG y la guarda en el sistema de archivos.
+Usa un nombre único generado con el texto ingresado (itemName) y un timestamp.
+La foto se guarda en la ruta Application.persistentDataPath, que es un directorio persistente en la plataforma donde se ejecuta el juego.
+
+
+BackToPreviousScreen()
+Detiene la cámara AR (solo esconde el panel de la foto).
+
+
+OnDestroy()
+Llama a StopCamera para asegurarse de que la cámara se desactiva al destruir el objeto.
+
+
+EmailSender.cs------------------------------------------------------
+
+Variables
+
+InputField recipientEmailInput:
+Campo de entrada para ingresar el correo electrónico del destinatario.
+
+InventoryManager inventoryManager:
+Referencia al gestor de inventario que maneja las listas de ítems.
+
+Text titleText:
+Elemento de texto de la UI usado para mostrar el título de la lista seleccionada.
+
+ItemList temporaryList:
+Mantiene una lista temporal de compras derivada del gestor de inventario.
+
+List<Sprite> photoSprites:
+Lista de imágenes (sprites) que representan las fotos de los productos para incrustar en el HTML generado.
+
+string fromEmail:
+Dirección de correo electrónico del remitente (AppCompras2024@gmail.com).
+
+string smtpServer:
+Servidor SMTP para enviar correos electrónicos (smtp.gmail.com).
+
+int smtpPort:
+Número de puerto para SMTP (587).
+
+string smtpUsername y string smtpPassword:
+Credenciales de correo electrónico para autenticación.
+
+string toEmail:
+Dirección de correo electrónico del destinatario (recuperada desde recipientEmailInput).
+
+float totalPrice:
+Precio total de los ítems en la lista de compras (calculado en GenerateShoppingListHtml y GenerateShoppingListTxt).
+
+Funciones
+
+SendEmailWithAttachment()
+Envía un correo electrónico al destinatario con la lista de compras adjunta como archivo (HTML o TXT).
+Maneja la configuración SMTP, la creación del correo electrónico y la eliminación del archivo después de enviarlo.
+
+GenerateShoppingListHtml()
+Crea un archivo HTML con una lista de compras estilizada que incluye los nombres de los productos, precios, precio total e imágenes incrustadas.
+
+GenerateShoppingListTxt()
+Crea un archivo de texto plano que contiene la lista de compras con los nombres de los productos, precios y precio total.
+
+findList()
+Busca una lista de compras en inventoryManager.itemListsShareable basado en titleText.text.
+Copia los datos de la lista a temporaryList para su posterior procesamiento.
+Registra los detalles de la lista encontrada o muestra una advertencia si no se encuentra.
+
+ARButtons.cs--------------------------------------------------------
+
+Variables
+
+Text name:
+Componente de texto de la UI que contiene el nombre del ítem que se va a agregar.
+
+Text price:
+Componente de texto de la UI que contiene el precio del ítem que se va a agregar.
+
+Text listname:
+Componente de texto de la UI que contiene el nombre de la lista (aunque no se usa actualmente en el script).
+
+InventoryManager inventoryManager:
+Referencia a la clase InventoryManager, utilizada para gestionar el inventario y agregar ítems a la lista actual.
+
+float totalPrice:
+Variable para hacer seguimiento del precio total de los ítems (actualmente no se usa en el script, pero podría ser útil para cálculos futuros).
+
+Functions
+
+Start()
+Se llama cuando el script comienza. Encuentra el objeto InventoryManager en la escena y lo asigna a la referencia inventoryManager.
+
+Anadir()
+Esta función se llama cuando se presiona el botón "Anadir". Crea un nuevo Item con el nombre y el precio proporcionados por los componentes de texto de la UI (name.text y price.text), y lo agrega a la lista actual de inventario utilizando inventoryManager.AddItemToCurrentList(newItem).
+
+NoAnadir()
+Esta función se llama cuando se presiona el botón "NoAnadir". Registra un mensaje indicando que no se agregó ningún ítem a la lista.
+
+GetActiveTargetName()
+Esta función auxiliar obtiene el nombre del objetivo AR actualmente activo. Revisa todos los objetos ObserverBehaviour activos en la escena y devuelve el nombre del objetivo rastreado. Si no se encuentra ningún objetivo activo, devuelve null.
