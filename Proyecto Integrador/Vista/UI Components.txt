@@ -1,0 +1,24 @@
+Dentro de este documento se hablará acerca de los diferentes componentes que forman la parte visual de la aplicación móvil. Cada uno de estos elementos tiene un propósito específico dentro de la interfaz, diseñado para facilitar la interacción del usuario y mejorar la experiencia general de uso.  
+
+### Componentes Visuales  
+
+1. **Input Texts (Campos de Entrada de Texto):**  
+   Estos campos permiten a los usuarios ingresar información como nombres, direcciones u otros datos necesarios dentro de la aplicación. Se utilizan en formularios o para capturar entradas de texto específicas.  
+
+2. **Text Boxes (Cajas de Texto):**  
+   Las cajas de texto muestran información estática o dinámica en la pantalla. Por ejemplo, se usan para desplegar mensajes, instrucciones, o resultados. Su diseño asegura que el texto sea legible y esté bien organizado.  
+
+3. **Scroll View (Vista Desplazable):**  
+   Este componente permite a los usuarios desplazarse por contenido que excede el tamaño visible de la pantalla. Es ideal para listas largas, formularios extensos o cualquier información que no pueda mostrarse completamente a la vez.  
+
+4. **Paneles:**  
+   Los paneles actúan como contenedores que agrupan elementos relacionados dentro de la interfaz. Por ejemplo, se usan para organizar botones, textos o cualquier componente dentro de una sección específica de la pantalla. Facilitan la gestión visual y jerarquización del diseño.  
+
+5. **Canvas (Lienzo):**  
+   El canvas es el contenedor principal donde se dibujan y gestionan todos los elementos de la interfaz. Es el núcleo de la parte visual de la aplicación, y todos los componentes, como botones, textos y paneles, están vinculados a él.  
+
+6. **Animación de Pop-up (Aviso):**  
+   Esta animación se utiliza para mostrar notificaciones o mensajes emergentes que requieren la atención del usuario. Por ejemplo, puede desplegarse un mensaje de éxito al completar una tarea o una advertencia en caso de error. Este pop-up incluye efectos visuales como un desvanecimiento o un movimiento suave para captar la atención sin ser intrusivo.  
+
+### Conclusión  
+Estos componentes trabajan en conjunto para ofrecer una interfaz de usuario eficiente y atractiva, asegurando que la aplicación sea fácil de usar y cumpla con los estándares de accesibilidad y diseño moderno.  
