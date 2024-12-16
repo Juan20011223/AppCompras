@@ -3,22 +3,20 @@ Dentro de este documento se hablará acerca de los diferentes componentes que fo
 ### Componentes Visuales  
 
 1. **Input Texts (Campos de Entrada de Texto):**  
-   Estos campos permiten a los usuarios ingresar información como nombres, direcciones u otros datos necesarios dentro de la aplicación. Se utilizan en formularios o para capturar entradas de texto específicas.  
+   Estos campos permiten a los usuarios ingresar información como nombres, direcciones u otros datos necesarios dentro de la aplicación. Se utilizan para capturar entradas de texto especificas como los nombres de los productos o sus precios. 
 
 2. **Text Boxes (Cajas de Texto):**  
-   Las cajas de texto muestran información estática o dinámica en la pantalla. Por ejemplo, se usan para desplegar mensajes, instrucciones, o resultados. Su diseño asegura que el texto sea legible y esté bien organizado.  
+  Las cajas de texto muestran información estática o dinámica en la pantalla. En el caso de la aplicación, se utilizan para desplegar títulos, información y mensajes de aviso para el usuario.
 
 3. **Scroll View (Vista Desplazable):**  
-   Este componente permite a los usuarios desplazarse por contenido que excede el tamaño visible de la pantalla. Es ideal para listas largas, formularios extensos o cualquier información que no pueda mostrarse completamente a la vez.  
+   Este componente permite a los usuarios desplazarse por contenido que excede el tamaño visible de la pantalla. Es ideal para listas largas, ya que permite al usuario desplazarse por todas las listas de ítems de manera más flexible.
 
 4. **Paneles:**  
    Los paneles actúan como contenedores que agrupan elementos relacionados dentro de la interfaz. Por ejemplo, se usan para organizar botones, textos o cualquier componente dentro de una sección específica de la pantalla. Facilitan la gestión visual y jerarquización del diseño.  
 
 5. **Canvas (Lienzo):**  
-   El canvas es el contenedor principal donde se dibujan y gestionan todos los elementos de la interfaz. Es el núcleo de la parte visual de la aplicación, y todos los componentes, como botones, textos y paneles, están vinculados a él.  
+   El canvas es el contenedor principal donde se dibujan y gestionan todos los elementos de la interfaz. Es el núcleo de la parte visual de la aplicación, y todos los componentes, como botones, textos y paneles, están vinculados a él. Dentro de la aplicación siempre habrá un canvas; nunca habrá más de uno, ya que este es el centro de todo.
 
 6. **Animación de Pop-up (Aviso):**  
-   Esta animación se utiliza para mostrar notificaciones o mensajes emergentes que requieren la atención del usuario. Por ejemplo, puede desplegarse un mensaje de éxito al completar una tarea o una advertencia en caso de error. Este pop-up incluye efectos visuales como un desvanecimiento o un movimiento suave para captar la atención sin ser intrusivo.  
+ Esta animación se utiliza para mostrar notificaciones o mensajes emergentes que requieren la atención del usuario. Este mensaje aparece para informar al usuario que se añadió un ítem con éxito o que se envió un correo con éxito. También aparece para mostrar mensajes de validación en caso de que el usuario no ingrese ningún dato.
 
-### Conclusión  
-Estos componentes trabajan en conjunto para ofrecer una interfaz de usuario eficiente y atractiva, asegurando que la aplicación sea fácil de usar y cumpla con los estándares de accesibilidad y diseño moderno.  
