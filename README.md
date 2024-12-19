@@ -16,9 +16,10 @@ La estructura del proyecto en carpetas es la siguiente:
 |    |--- ImageTargetManager.cs
 |    |--- Item.cs
 |    |--- ItemList.cs
+|    |--- Modelo.txt
 |
 |--- 📁 <a href="https://github.com/Juan20011223/ProyectoIntegrador/tree/main/Proyecto%20Integrador/Vista">Vista</a>
-|    |--- UI Components
+|    |--- UIComponents.txt
 |
 |--- 📁 <a href="https://github.com/Juan20011223/ProyectoIntegrador/tree/main/Proyecto%20Integrador/Controlador">Controlador</a>
 |    |--- CameraManager.cs
@@ -26,6 +27,7 @@ La estructura del proyecto en carpetas es la siguiente:
 |    |--- EmailSender.cs
 |    |--- CanvasManager.cs
 |    |--- ARButtons.cs
+|    |--- Controlador.txt
 |
 |----------------------
 </pre>
